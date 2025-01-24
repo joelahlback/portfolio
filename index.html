@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Joel Ahlbäck</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/iad5mmq.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Karla:ital,wght@0,200..800;1,200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Sora:wght@100..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="menu">
+        <div class="menu-left">
+            <span class="menu-name">Joel Ahlbäck</span>
+        </div>
+        <div class="menu-right">
+            <a href="#" id="about-link">Om mig</a>
+            <a href="https://www.linkedin.com/in/joelahlback/" class="linkedin-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="/assets/joel-cv.pdf" class="CV" target="_blank" rel="noopener noreferrer">CV</a>
+        </div>
+    </header>
+    <div id="popup-overlay"></div>
+    <main class="cases">
+        <div class="case" id="case1">
+            <a href="#case1-popup"><img src="./assets/sandatex/case_sandatex_2.jpg" alt="Case 1"></a>
+            <div class="overlay"></div>
+            <div class="overlaytext">Sandatex</div>
+        </div>
+        <div class="case" id="case2">
+            <a href="#case2-popup"><img src="./assets/techstn/techstn-logo.jpg" alt="Case 2"></a>
+            <div class="overlay"></div>
+            <div class="overlaytext">Tech Stn.</div>
+        </div>
+        <div class="case" id="case3">
+            <a href="#case3-popup"><img src="./assets/swl/2-swl-case-1080x1080.jpg" alt="Case 3"></a>
+            <div class="overlay"></div>
+            <div class="overlaytext">SWL</div>
+        </div>
+        <div class="case" id="case4">
+            <a href="#case4-popup"><img src="./assets/hydrialager/Hydrialager.jpg" alt="Case 4"></a>
+            <div class="overlay"></div>
+            <div class="overlaytext">Hydria Group</div>
+        </div>
+    </main>
+        <!-- Popup för Om mig -->
+        <div class="about-popup" id="about-popup">
+            <div class="about-content">
+                <div class="popup-header">
+                    <h2>Om mig</h2>
+                    <button class="close-btn" id="close-popup">
+                        <svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0" y1="0" x2="24" y2="24" stroke="black" stroke-width="2"/>
+                            <line x1="0" y1="24" x2="24" y2="0" stroke="black" stroke-width="2"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="popup-body">
+                    <img src="./assets/joel.jpg" alt="Joel" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mauris sem, porttitor vel arcu eget, sodales viverra felis. Sed arcu felis, cursus at elit at, tincidunt ullamcorper erat. Ut odio lectus, semper et orci ac, gravida imperdiet leo. </p>
+                    <p>Nå mig:</p>
+                    <a href="mailto:ahlbaeck@live.se">ahlbaeck@live.se</a>
+                    <a href="tel:+460735378858">0735-37 88 58</a>
+                </div>
+            </div>
+        </div>
+        <div class="about-popup" id="case1-popup">
+            <div class="about-content">
+                <div class="popup-header">
+                    <h2>Sandatex</h2>
+                    <button class="close-btn" id="close-popup">
+                        <svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0" y1="0" x2="24" y2="24" stroke="black" stroke-width="2"/>
+                            <line x1="0" y1="24" x2="24" y2="0" stroke="black" stroke-width="2"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="popup-body case-text">
+                    <p>Sandatex ville förnya sin design utan att kompromissa med webbplatsens huvudsyfte; att effektivt guida besökare till att beställa vävprover. 
+                    <br /><br />Vi skapade en ny design med fokus på inspiration och tydligare navigering. Genom effektiva rubriker och CTA-knappar på alla sidor, samt en kortare kundresa för att enkelt och smidigt beställa vävprover, förvandlade vi webbplatsen till en dynamisk plattform som engagerar och konverterar.</p>
+                    <ul>
+                      <li>Datum: feb-mars 2024</li>
+                      <li>Kund: Sandatex</li>
+                      <li>Roll: Webbdesigner/utvecklare</li>
+                    </ul>
+                </div>
+                <div class="popup-body case-body">
+                  <img src="./assets/sandatex/case_sandatex_1.jpg" alt="laptop mockup">
+                  <img src="./assets/sandatex/case_sandatex_2.jpg" alt="laptop mockup">
+                  <img src="./assets/sandatex/case_sandatex_3.jpg" alt="laptop mockup">
+                  <video width="100%" height="100%" autoplay muted loop>
+                    <source src="./assets/sandatex/case_sandatex_4.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video>
+
+                </div>
+            </div>
+        </div>
+        <div class="about-popup" id="case2-popup">
+            <div class="about-content">
+                <div class="popup-header">
+                    <h2>Tech Stn.</h2>
+                    <button class="close-btn" id="close-popup">
+                        <svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="0" y1="0" x2="24" y2="24" stroke="black" stroke-width="2"/>
+                            <line x1="0" y1="24" x2="24" y2="0" stroke="black" stroke-width="2"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="popup-body case-text">
+                  <p>Som digital kreatör på Tech Stn drev jag ett nyhetsbrev från idéstadiet till genomförande, med månatliga publikationer via mejl och på LinkedIn. 
+                    Tech Stn Insights innehåller tre läsvärda insikter från månadens IT- och kommunikationsnyheter.
+                    <br /> <br />Jag har skapat innehåll och rörligt material till våra sociala medier. Bland annat kundcase. Se inlägget om Skogspartners nya look här nedan.
+                  </p>
+                  <ul>
+                    <li>Datum: feb 2024- feb 2025</li>
+                    <li>Kund: Tech Stn (inhouse marketing)</li>
+                    <li>Roll: Digital kreatör</li>
+                  </ul>
+              </div>
+              <div class="popup-body case-body">
+                <img src="./assets/techstn/insights3.jpg" alt="bild nyhetsbrev">
+                <img src="./assets/techstn/insights-brev.png" alt="nyhetsbrev bild">
+                <video width="100%" height="100%" controls poster="/assets/techstn/poster.jpg">
+                  <source src="./assets/techstn/skogspartner_case.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+
+              </div>
+            </div>
+        </div>
+        <div class="about-popup" id="case3-popup">
+          <div class="about-content">
+              <div class="popup-header">
+                  <h2>SWL</h2>
+                  <button class="close-btn" id="close-popup">
+                      <svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <line x1="0" y1="0" x2="24" y2="24" stroke="black" stroke-width="2"/>
+                          <line x1="0" y1="24" x2="24" y2="0" stroke="black" stroke-width="2"/>
+                      </svg>
+                  </button>
+              </div>
+              <div class="popup-body case-text">
+                <p>SWL behövde en uppfräschning och mer tilltalande sajt. Vi skapade en ny design med fokus på enkel navigering, responsivitet och en stilren layout som speglar deras varumärke.
+                </p>
+                <ul>
+                  <li>Datum: nov/dec 2024</li>
+                  <li>Kund: SWL</li>
+                  <li>Roll: Webbdesigner/utvecklare</li>
+                </ul>
+            </div>
+            <div class="popup-body case-body">
+              <img src="./assets/swl/1-swl-case-hero-1920x1080.jpg" alt="bild nyhetsbrev">
+              <img src="./assets/swl/4-swl-case-1920x1080 copy.jpg" alt="nyhetsbrev bild">
+              <video width="100%" height="100%" autoplay muted loop>
+                <source src="./assets/swl/3-swl-case-1920x1080.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+      </div>
+      <div class="about-popup" id="case4-popup">
+        <div class="about-content">
+            <div class="popup-header">
+                <h2>Hydria Group</h2>
+                <button class="close-btn" id="close-popup">
+                    <svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="0" y1="0" x2="24" y2="24" stroke="black" stroke-width="2"/>
+                        <line x1="0" y1="24" x2="24" y2="0" stroke="black" stroke-width="2"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="popup-body case-text">
+              <p>Till Hydria Groups årliga julfest designade jag etiketter till öl och cider som serverades.
+                <br /><br /> En blinkning till Borås, Hydriakoncernen och ägarfamiljen Barrstrand, eller "Pine Beach"
+              </p>
+              <ul>
+                <li>Datum: nov/dec 2024</li>
+                <li>Kund: Hydria Group</li>
+                <li>Roll: Designer/AD</li>
+              </ul>
+          </div>
+          <div class="popup-body case-body">
+            <img src="./assets/hydrialager/Hydrialager.jpg" alt="bild nyhetsbrev">
+            <img src="./assets/hydrialager/hydrialagermockup3.jpg" alt="nyhetsbrev bild">
+            <img src="./assets/hydrialager/Hydrialagerkrossad.jpg" alt="nyhetsbrev bild">
+            <img src="./assets/hydrialager/boreaux.jpg" alt="nyhetsbrev bild">
+            <img src="./assets/hydrialager/boreaux_mockup1.jpg" alt="nyhetsbrev bild">
+          </div>
+        </div>
+    </div>
+    <footer>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
